@@ -5,6 +5,16 @@ public class Pessoa {
     private String name;
     private Integer idade;
 
+    private int cpf;
+
+    public int getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
+    }
+
     public String getName() {
         return name;
     }
